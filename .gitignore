@@ -1,6 +1,8 @@
 HELP.md
 mvnw
 mvnw.cmd
+docker.compose.yml
+application-dev.yml
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
