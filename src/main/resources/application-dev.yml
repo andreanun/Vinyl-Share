@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/vinyl_share_db
+    username: dreacode
+    password:
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDIALECT
+  mail:
+    host: localhost
+    port: 1025
+    username: dreacode
+    password:
+    properties:
+      mail:
+        smtp:
+          trust: "*"
+        auth: true
+        starttls:
+          enable: true
+        connectiontimeout: 5000
+        timeout: 3000
+        writetuneout: 5000
+
+  application:
+    security:
+      jwt:
+        secret-key: 2XGJRHnjMYL6OQLbQ8p8PpS5xnNd+tgWcH/lZ3tgKDs=
+        expiration: 86400000  # expires in one day
+
