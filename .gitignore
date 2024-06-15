@@ -1,4 +1,6 @@
 HELP.md
+mvnw
+mvnw.cmd
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -33,6 +35,10 @@ build/
 .vscode/
 
 ### ENV Files ###
-.evn
-.evn.example
+.env
+.env.example
+
+
+
+
 
